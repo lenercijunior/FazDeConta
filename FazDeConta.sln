@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FazDeConta.Domain", "FazDeConta.domain\FazDeConta.Domain.csproj", "{308B4DE5-2952-4C28-891A-686013DB82F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FazDeConta.Infra", "FazDeConta.infra\FazDeConta.Infra.csproj", "{7194AAF3-B681-43D3-BA15-6E67127FBF9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FazDeConta.Application", "FazDeConta.application\FazDeConta.Application.csproj", "{486586BB-C598-45BB-A77E-97F8065F6E9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FazDeConta.CrossCutting", "FazDeConta.CrossCutting\FazDeConta.CrossCutting.csproj", "{4A9C3A79-FD15-4C15-B2F0-C9C45CC72513}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "reactapp", "FazDeConta.Web\reactapp\reactapp.esproj", "{FC2D8DB2-7C0A-404F-8215-D52C1309E415}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi", "FazDeConta.Web\webapi\webapi.csproj", "{3EFEA1CF-2278-4DB4-845F-7BDA0898C7B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{308B4DE5-2952-4C28-891A-686013DB82F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308B4DE5-2952-4C28-891A-686013DB82F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308B4DE5-2952-4C28-891A-686013DB82F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308B4DE5-2952-4C28-891A-686013DB82F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7194AAF3-B681-43D3-BA15-6E67127FBF9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7194AAF3-B681-43D3-BA15-6E67127FBF9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7194AAF3-B681-43D3-BA15-6E67127FBF9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7194AAF3-B681-43D3-BA15-6E67127FBF9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486586BB-C598-45BB-A77E-97F8065F6E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486586BB-C598-45BB-A77E-97F8065F6E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486586BB-C598-45BB-A77E-97F8065F6E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486586BB-C598-45BB-A77E-97F8065F6E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A9C3A79-FD15-4C15-B2F0-C9C45CC72513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9C3A79-FD15-4C15-B2F0-C9C45CC72513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9C3A79-FD15-4C15-B2F0-C9C45CC72513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9C3A79-FD15-4C15-B2F0-C9C45CC72513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2D8DB2-7C0A-404F-8215-D52C1309E415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2D8DB2-7C0A-404F-8215-D52C1309E415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2D8DB2-7C0A-404F-8215-D52C1309E415}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FC2D8DB2-7C0A-404F-8215-D52C1309E415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2D8DB2-7C0A-404F-8215-D52C1309E415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2D8DB2-7C0A-404F-8215-D52C1309E415}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3EFEA1CF-2278-4DB4-845F-7BDA0898C7B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EFEA1CF-2278-4DB4-845F-7BDA0898C7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EFEA1CF-2278-4DB4-845F-7BDA0898C7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EFEA1CF-2278-4DB4-845F-7BDA0898C7B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A81B26EC-0FAE-4881-A646-F32AACCB7464}
+	EndGlobalSection
+EndGlobal
